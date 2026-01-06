@@ -1,0 +1,51 @@
+:root {
+  /* Usage: var(--color-bg) */
+
+  /* Palette: Deep Indigo & Sakura */
+  /* Backgrounds */
+  --bg-app: #0f1020;
+  --bg-panel: rgba(255, 255, 255, 0.05);
+  --bg-panel-hover: rgba(255, 255, 255, 0.08);
+  --bg-glass: rgba(20, 20, 40, 0.7);
+
+  /* Primary / Accents */
+  --color-primary: #ff80ab; /* Sakura Pink */
+  --color-primary-hover: #ff4081;
+  --color-secondary: #00e5ff; /* Cyan accent */
+  --color-accent: #7c4dff; /* Deep Purple */
+
+  /* Text */
+  --text-main: #ffffff;
+  --text-muted: #a0a0b0;
+  --text-highlight: #ff80ab;
+
+  /* Status */
+  --color-success: #00e676;
+  --color-error: #ff1744;
+  --color-warning: #ffea00;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 64px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-main: 'Inter', system-ui, sans-serif;
+  --font-japanese: 'Noto Sans JP', sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 15px rgba(255, 128, 171, 0.3);
+  
+  /* Transitions */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
